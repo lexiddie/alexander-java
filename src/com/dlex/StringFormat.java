@@ -1,0 +1,1 @@
+package com.dlex;public class StringFormat {    public static void main(String[] args) {        int hour = 23;        int minute = 15;        String result = String.format("%02d:%02d", hour, minute);        System.out.println(result);        String name = "Alexander";        String formatName = String.format("%20s", name);        System.out.println(formatName);    }}
